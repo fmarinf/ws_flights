@@ -11,12 +11,16 @@ Se utilizan opciones de configuración para ejecutar el script en modo "headless
 Para obtener los datos de vuelo, simplemente llama a la función get_flight_data().
 
 
-```flight_data = get_flight_data()```
+```
+flight_data = get_flight_data()
+```
 
 Luego, puedes guardar los datos en un archivo CSV utilizando la función save_flight_data_to_csv(). Por ejemplo:```
 
 
-```save_flight_data_to_csv(flight_data, 'flight_data.csv')```
+```
+save_flight_data_to_csv(flight_data, 'flight_data.csv')
+```
 
 ## Requisitos
 
